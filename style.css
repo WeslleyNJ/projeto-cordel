@@ -43,4 +43,11 @@ section.imagem {
 
 footer {
     background-color: var(--cor0);
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
