@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: #042940;
+    --cor2: #005C53;
+    --cor3: #9FC131;
+    --cor4: #DBF227;
+    --cor5: #D6D58E;
+}
+
+
+header {
+    height: 150px;
+    background-color: var(--cor0);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    text-decoration: solid;
+}
+
+a.link {
+    text-decoration: none;
+}
+
+section.normal {
+    background-color: var(--cor2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.imagem {
+    background-color: var(--cor3);
+}
+
+footer {
+    background-color: var(--cor0);
+}
